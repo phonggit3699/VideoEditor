@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D3EC973275E195D00D1AFA5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3EC972275E195C00D1AFA5 /* OpenSans-Bold.ttf */; };
 		3D4AEBBA2754B333004F14FE /* RosyCIRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AEBB92754B333004F14FE /* RosyCIRenderer.swift */; };
 		3D4AEBBE2754B9D1004F14FE /* PreviewMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AEBBD2754B9D1004F14FE /* PreviewMetalView.swift */; };
 		3D4AEBC02754BA6D004F14FE /* MonoCIRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AEBBF2754BA6D004F14FE /* MonoCIRenderer.swift */; };
@@ -429,7 +428,6 @@
 				3DC7EDC4274CA06900BDA10A /* TabMusicCLVCell.xib in Resources */,
 				3DF0614E2760725E0078E38F /* NightLife.mp3 in Resources */,
 				3DB8D2992773360B0087C258 /* sticker5.png in Resources */,
-				3D3EC973275E195D00D1AFA5 /* OpenSans-Bold.ttf in Resources */,
 				3DB8D2802771A0890087C258 /* sticker2.png in Resources */,
 				3DF0614D2760725E0078E38F /* Life Is Jorney.mp3 in Resources */,
 				3DB8D2812771A0890087C258 /* sticker1.png in Resources */,
