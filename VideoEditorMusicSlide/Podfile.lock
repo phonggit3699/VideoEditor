@@ -1,0 +1,33 @@
+PODS:
+  - ABVideoRangeSlider (0.1.5)
+  - ALProgressView (2.0.0)
+  - MetalPetal (1.24.0):
+    - MetalPetal/Core (= 1.24.0)
+  - MetalPetal/Core (1.24.0)
+  - MetalPetal/Swift (1.24.0):
+    - MetalPetal/Core
+  - MTTransitions (1.6.5):
+    - MetalPetal
+    - MetalPetal/Swift
+
+DEPENDENCIES:
+  - ABVideoRangeSlider
+  - ALProgressView
+  - MTTransitions
+
+SPEC REPOS:
+  trunk:
+    - ABVideoRangeSlider
+    - ALProgressView
+    - MetalPetal
+    - MTTransitions
+
+SPEC CHECKSUMS:
+  ABVideoRangeSlider: f2b6d894170bd0951693de4c1ad625f7f9f8b6a5
+  ALProgressView: 547883405970e932d8f1f12b605aa4f6df08f155
+  MetalPetal: 29d8cd412ab8e0b7a31443277a56050719ee0a27
+  MTTransitions: f4818ba485abc477545af4ee483c00b717dfd76e
+
+PODFILE CHECKSUM: 278fe18a89a218651148d67ecf700a3c8ad7ed5a
+
+COCOAPODS: 1.11.2

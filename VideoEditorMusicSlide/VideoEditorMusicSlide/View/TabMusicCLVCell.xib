@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-ExtraBold.ttf">
+            <string>OpenSans-ExtraBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TabMusicCLVCell" customModule="VideoEditorMusicSlide" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="104"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="104"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xZ-0l-dNm">
+                        <rect key="frame" x="87" y="37.5" width="106" height="19.5"/>
+                        <fontDescription key="fontDescription" name="OpenSans-ExtraBold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line 1" translatesAutoresizingMaskIntoConstraints="NO" id="bl2-di-NMJ">
+                        <rect key="frame" x="87" y="57" width="106" height="3"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="0xZ-0l-dNm" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="0kz-gX-ks6"/>
+                <constraint firstItem="bl2-di-NMJ" firstAttribute="trailing" secondItem="0xZ-0l-dNm" secondAttribute="trailing" id="Eae-rw-igj"/>
+                <constraint firstItem="bl2-di-NMJ" firstAttribute="bottom" secondItem="0xZ-0l-dNm" secondAttribute="bottom" constant="3" id="iBd-xc-s2y"/>
+                <constraint firstItem="bl2-di-NMJ" firstAttribute="leading" secondItem="0xZ-0l-dNm" secondAttribute="leading" id="p6s-hF-gvF"/>
+                <constraint firstItem="0xZ-0l-dNm" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-5" id="pEt-Bj-IoO"/>
+            </constraints>
+            <size key="customSize" width="280" height="104"/>
+            <connections>
+                <outlet property="TabNameLabel" destination="0xZ-0l-dNm" id="Gee-mm-fQ2"/>
+                <outlet property="tabLine" destination="bl2-di-NMJ" id="y3V-IW-fb6"/>
+            </connections>
+            <point key="canvasLocation" x="201.44927536231884" y="110.49107142857143"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Line 1" width="106" height="3"/>
+    </resources>
+</document>
